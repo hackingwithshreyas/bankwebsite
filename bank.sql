@@ -39,17 +39,16 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`id`, `name`, `email`, `balance`) VALUES
-(1, 'Parkash Rai', 'parkashrai@gmail.com', 48955),
-(2, 'Akash Rai', 'akashrai@gmail.com', 35000),
-(3, 'Padam Rai', 'raipadam@gmail.com', 40691),
-(4, 'Preet Rathi', 'preetrathi@gmail.com', 48590),
-(5, 'Muskan Kumari', 'kumarimuskan@gmail.com', 40050),
-(6, 'Rabia Ali', 'rabiaali@gmail.com', 30555),
-(7, 'Pardeep Kumar', 'pardeep@gmail.com', 49877),
-(8, 'Junaid Ali', 'junaid@gmail.com', 36825),
-(9, 'Avinash Kumar', 'avinash@gmail.com', 30000),
-(10, 'Kelash Kumar', 'kelash@gmail.com', 50096);
-
+(1, 'Shreyas Jaiswal', 'shreyas@gmail.com', 48955),
+(2, 'CarryMinati', 'carryislive@gmail.com', 35000),
+(3, 'Aniket', 'aniket@gmail.com', 40691),
+(4, 'Ritu Rathi', 'riturathi@gmail.com', 48590),
+(5, 'Aryanshi Sharma', 'aryanshi@gmail.com', 40050),
+(6, 'Mobin Ali', 'mobinali@gmail.com', 30555),
+(7, 'Jacob Jason', 'jacob@gmail.com', 49877),
+(8, 'Gaurav Taneja', 'gauravtaneja@gmail.com', 36825),
+(9, 'Jeff Kumar', 'jeff@gmail.com', 30000),
+(10, 'Khushi Malhotra', 'khushi@gmail.com', 50096);
 -- --------------------------------------------------------
 
 --
@@ -69,9 +68,9 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`sno`, `sender`, `receiver`, `balance`, `datetime`) VALUES
-(1, 'Padam Rai', 'Akash Rai', 480, '2021-02-13 18:07:13'),
-(2, 'Parkash Rai', 'Preet Rathi', 640, '2021-02-14 20:44:53'),
-(7, 'Parkash Rai', 'Rabia Ali', 455, '2021-02-15 07:34:22');
+(12, 'CarryMinati', 'Shreyas Jaiswal', 1000, '2021-07-18 12:15:56'),
+(13, 'Aryanshi Sharma', 'Aniket', 500, '2021-07-18 12:16:11'),
+(14, 'Jacob Jason', 'Gaurav Taneja', 100, '2021-07-18 12:17:35');
 
 --
 -- Indexes for dumped tables
